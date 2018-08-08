@@ -5,6 +5,7 @@ Check doc for exercises
 ## Steps to run code on hadoop
 - move dataset to hadoop <br>
 ```sh
+hdfs dfs -mkdir fragma-data
   hdfs dfs -put matches.csv fragma-data
   hdfs dfs -put deliveries.csv fragma-data
  ```
